@@ -1,0 +1,151 @@
+{
+	"id": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"createdAt": "2025-07-28T07:48:50.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/lucaparententt/neptune-druckchemie.git"
+	},
+	"name": "drukchemie",
+	"description": "Drukchemie",
+	"ver": "25.08.29.1140",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "d25aba6b-22a7-4923-91e2-e80f45698927",
+			"application": "dc_order_mobile_cc",
+			"title": "Floorplan",
+			"description": "Fiori Object Page",
+			"package": {
+				"id": "4cba168a-4e72-44be-af1c-4abc19fabc07"
+			}
+		},
+		{
+			"id": "c8e6ddc9-b8cb-4c14-b640-7737cb188981",
+			"application": "dc_order_mobile",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "4cba168a-4e72-44be-af1c-4abc19fabc07"
+			}
+		},
+		{
+			"id": "65123e3e-1f89-4a42-b1dd-f9d1c0fa81f7",
+			"application": "dc_mobile_orderlist_cc",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "4cba168a-4e72-44be-af1c-4abc19fabc07"
+			}
+		},
+		{
+			"id": "143d6d1f-07ef-403a-ba97-7be14bd470ef",
+			"application": "dc_mobile_orderdetails_cc",
+			"title": "Floorplan",
+			"description": "Fiori Object Page",
+			"package": {
+				"id": "4cba168a-4e72-44be-af1c-4abc19fabc07"
+			}
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [
+		{
+			"id": "a8e59593-0ff0-4983-97fb-e22dfef8e836",
+			"name": "druckchemie",
+			"description": "druckchemie theme"
+		}
+	],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "eb0dc3c6-b0f4-4eef-857e-9e1de2630350",
+			"name": "dc_products_app",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "d9fba505-f43b-47ba-bb2d-2adced903cfb",
+			"name": "dc_products_create_app",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "fbd5123e-09ed-4662-8a05-afe53bc148f2",
+			"description": null,
+			"name": "Customers"
+		},
+		{
+			"id": "ca8721e2-0c8f-484e-b8f1-4c2712d10ab9",
+			"description": null,
+			"name": "Orders"
+		},
+		{
+			"id": "887e5c87-4451-4281-8f2e-7c9aa0849ff0",
+			"description": null,
+			"name": "Products"
+		},
+		{
+			"id": "47d40a9f-c91f-4cd9-a470-eb3c570d20ac",
+			"description": null,
+			"name": "Deliveries"
+		}
+	],
+	"category": [
+		{
+			"id": "962b197d-4e4b-4f27-92d5-ff8b01c81db8",
+			"description": null,
+			"name": "Home"
+		},
+		{
+			"id": "726b3fcd-8200-4047-bbf9-5f6a3fc5ccd3",
+			"description": null,
+			"name": "Deliveries & Orders"
+		},
+		{
+			"id": "6e8a03a5-d76f-4632-b1b9-aa40ac68015b",
+			"description": null,
+			"name": "MasterData"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "e3cd17a1-42e2-4b7d-8904-433ae8f31fc9",
+			"name": "MyDruckChemie",
+			"description": null
+		},
+		{
+			"id": "c2ad6290-5521-4326-ad0e-6254522e98a7",
+			"name": "druckchemie",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [
+		{
+			"id": "c86b9930-6191-47e8-9cae-c836b78383d7",
+			"name": "dc_appointment_reminder",
+			"description": "Promemoria: Arrivo dello Spedizioniere - Conferma Ordine"
+		}
+	],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

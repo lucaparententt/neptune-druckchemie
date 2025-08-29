@@ -1,0 +1,4 @@
+if (typeof isDefault === "undefined" || isDefault === null || isDefault === "") { return; }  
+if(isDefault){
+    return "Success"
+}; 

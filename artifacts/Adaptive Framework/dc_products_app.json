@@ -1,0 +1,426 @@
+{
+	"id": "eb0dc3c6-b0f4-4eef-857e-9e1de2630350",
+	"createdAt": "2025-07-29T12:54:11.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"hideHeader": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": true,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference",
+				"avatarIcon": "sap-icon://product",
+				"title": "Products",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "d9fba505-f43b-47ba-bb2d-2adced903cfb",
+					"keyField": [
+						{
+							"fieldName": "id",
+							"key": "id",
+							"value": ""
+						},
+						{
+							"fieldName": "number",
+							"key": "number",
+							"value": ""
+						},
+						{
+							"fieldName": "description",
+							"key": "description",
+							"value": ""
+						},
+						{
+							"fieldName": "searchDescription",
+							"key": "searchDescription",
+							"value": ""
+						},
+						{
+							"fieldName": "productGroup1",
+							"key": "productGroup1",
+							"value": ""
+						},
+						{
+							"fieldName": "productGroup2",
+							"key": "productGroup2",
+							"value": ""
+						},
+						{
+							"fieldName": "productGroup3",
+							"key": "productGroup3",
+							"value": ""
+						},
+						{
+							"fieldName": "productGroup4",
+							"key": "productGroup4",
+							"value": ""
+						},
+						{
+							"fieldName": "unitOfMeasure",
+							"key": "unitOfMeasure",
+							"value": ""
+						},
+						{
+							"fieldName": "grossWeight",
+							"key": "grossWeight",
+							"value": ""
+						},
+						{
+							"fieldName": "netWeight",
+							"key": "netWeight",
+							"value": ""
+						},
+						{
+							"fieldName": "qtyPerItem",
+							"key": "qtyPerItem",
+							"value": ""
+						},
+						{
+							"fieldName": "unit",
+							"key": "unit",
+							"value": ""
+						}
+					]
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": true,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAutoPopin": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "blockReason",
+				"label": "blockReason",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "blocked",
+				"label": "blocked",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "description",
+				"label": "description",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "grossWeight",
+				"label": "grossWeight",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "netWeight",
+				"label": "netWeight",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "number",
+				"label": "number",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "productGroup1",
+				"label": "productGroup1",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "productGroup2",
+				"label": "productGroup2",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "productGroup3",
+				"label": "productGroup3",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "productGroup4",
+				"label": "productGroup4",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "purchasingBlocked",
+				"label": "purchasingBlocked",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "qtyPerItem",
+				"label": "qtyPerItem",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "salesBlocked",
+				"label": "salesBlocked",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "searchDescription",
+				"label": "searchDescription",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "unit",
+				"label": "unit",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "unitOfMeasure",
+				"label": "unitOfMeasure",
+				"type": "smalltext",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "number",
+				"text": "Number",
+				"fieldPos": 1
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "description",
+				"text": "Description",
+				"fieldPos": 2
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": false,
+				"name": "searchDescription",
+				"text": "Search Description",
+				"fieldPos": 3
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "productGroup1",
+				"text": "Group1",
+				"fieldPos": 4
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "productGroup2",
+				"text": "Group2",
+				"fieldPos": 5
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "productGroup3",
+				"text": "Group3",
+				"fieldPos": 6
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "productGroup4",
+				"text": "Group4",
+				"fieldPos": 7
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "unitOfMeasure",
+				"text": "Unit Of Measure",
+				"fieldPos": 8
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "grossWeight",
+				"text": "Gross Weight",
+				"fieldPos": 9
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "netWeight",
+				"text": "Net Weight",
+				"fieldPos": 10
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "qtyPerItem",
+				"text": "Qty Per Item",
+				"fieldPos": 11
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "unit",
+				"text": "Unit",
+				"fieldPos": 12
+			}
+		],
+		"defaultVariant": {
+			"id": "2034a77a-64a5-49a1-9cd0-bfcf3f8792cd",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "dc_products_app",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "56723800-2119-f011-aaa7-6045bdde104c",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.07.29.1459",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

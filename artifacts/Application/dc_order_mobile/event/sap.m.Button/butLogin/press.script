@@ -1,0 +1,13 @@
+const customerId = inLoginClientID.getValue();
+if (customerId) {
+    var options = {
+        parameters: {
+            customerId: customerId, // Required
+        },
+    };
+
+    apiAuthenticateUser(options);
+}else{
+// Use MessageToast
+sap.m.MessageToast.show("Please, enter a valid client ID");    
+}

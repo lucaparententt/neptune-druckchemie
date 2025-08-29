@@ -1,0 +1,3 @@
+if (typeof customerId === "undefined" || customerId === null || customerId === "") { return; }  
+var formattedText = getCustomerById(customerId,"companyName"); 
+return formattedText;

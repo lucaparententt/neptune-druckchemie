@@ -1,0 +1,24 @@
+let tourCode;
+if (typeof deliveryId === "undefined" || deliveryId === null || deliveryId === "") {
+    tourCode = "5";
+}
+tourCode = getDeliveryById(deliveryId, "code");
+
+switch (tourCode) {
+    case "1":
+        formattedText = "sap-icon://fas/1";
+        break;
+    case "2":
+        formattedText = "sap-icon://fas/2";
+        break;
+    case "3":
+        formattedText = "sap-icon://fas/3";
+        break;
+    case "4":
+        formattedText = "sap-icon://fas/4";
+        break;
+    default:
+        formattedText = "sap-icon://fas/truck-fast";
+        break;
+}
+return formattedText;

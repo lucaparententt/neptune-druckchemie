@@ -1,0 +1,14 @@
+
+const customerId = modelOrder.getData().order.customerId;
+
+var options = {
+    parameters:{
+        customerId
+    }
+  
+};
+console.log(options)
+apiGetCustomerDetails(options);
+
+debugger;
+setDetailsTableHeaderText()

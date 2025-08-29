@@ -1,0 +1,6 @@
+if (typeof isDefault === "undefined" || isDefault === null || isDefault === "") { return; }  
+if(isDefault===true){
+    return "sap-icon://arrow-down"
+}else{
+    return "";
+}

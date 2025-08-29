@@ -1,0 +1,5 @@
+
+if (typeof orderstatus === "undefined" || orderstatus === null || orderstatus === "") { return; }  
+
+let status = modelMasterData.getData().orderStatus.find(s => s.key == Number(orderstatus)); 
+return status.value;

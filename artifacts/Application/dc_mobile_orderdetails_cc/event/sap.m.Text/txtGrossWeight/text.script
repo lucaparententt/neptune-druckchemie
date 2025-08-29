@@ -1,0 +1,5 @@
+if (typeof productId === "undefined" || productId === null || productId === "") { return; }  
+
+const product = modelProducts.getData().find((p) => p.id === productId);
+let formattedText = product.grossWeight;
+return formattedText

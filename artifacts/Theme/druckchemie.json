@@ -1,0 +1,13 @@
+{
+	"id": "a8e59593-0ff0-4983-97fb-e22dfef8e836",
+	"createdAt": "2025-07-28T08:57:40.000Z",
+	"createdBy": "admin",
+	"content": [],
+	"name": "druckchemie",
+	"ver": "25.07.28.1057",
+	"description": "druckchemie theme",
+	"ui5Theme": "sap_belize",
+	"stylesheet": null,
+	"calculated": "",
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07"
+}
