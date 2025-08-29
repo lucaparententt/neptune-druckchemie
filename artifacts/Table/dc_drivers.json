@@ -1,0 +1,37 @@
+{
+	"id": "226039f9-8a5d-f011-8f7c-7c1e5288250d",
+	"createdAt": "2025-07-10T12:39:54.830Z",
+	"createdBy": "druckchemie",
+	"fields": [
+		{
+			"id": "4fd8abe0-abc4-4c43-de21-8f84c15e3837",
+			"fieldName": "name",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "bf970959-58a7-4f2a-81bc-e2695a695bbc",
+			"fieldName": "email",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "2bae8a02-adfa-4931-b8d6-ee407740400c",
+			"fieldName": "phone",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "dc_drivers",
+	"description": null,
+	"ver": "25.08.29.1153",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"rolesRead": [],
+	"rolesWrite": []
+}

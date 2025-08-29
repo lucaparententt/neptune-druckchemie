@@ -1,0 +1,55 @@
+{
+	"id": "cd064893-2057-f011-8f7c-7c1e5288250d",
+	"createdAt": "2025-07-02T08:43:10.390Z",
+	"createdBy": "luca.parente@neptune-software.com",
+	"fields": [
+		{
+			"id": "48ac8937-5c8a-4697-ff2d-f95dae82923d",
+			"fieldName": "customerId",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"description": "Customer ID"
+		},
+		{
+			"id": "dde4840b-193b-4996-ac0e-70f3e83d68c8",
+			"fieldName": "tour",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Tour",
+			"default": "5"
+		}
+	],
+	"indices": [
+		{
+			"id": "a08d0464-458e-412a-9d24-f9204d1745cc",
+			"name": "IDX_d47434053bef54140f55407030",
+			"columns": [
+				{
+					"id": "48ac8937-5c8a-4697-ff2d-f95dae82923d",
+					"fieldName": "customerId",
+					"fieldType": "uuid",
+					"isUnique": false,
+					"description": "Customer ID"
+				},
+				{
+					"id": "dde4840b-193b-4996-ac0e-70f3e83d68c8",
+					"fieldName": "tour",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Tour",
+					"default": "5"
+				}
+			],
+			"isUnique": false
+		}
+	],
+	"foreignKeys": [],
+	"name": "dc_customer_tour",
+	"description": null,
+	"ver": "25.08.29.1152",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"rolesRead": [],
+	"rolesWrite": []
+}

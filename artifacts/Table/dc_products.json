@@ -1,0 +1,132 @@
+{
+	"id": "450c9ea7-92fd-ef11-90c9-7c1e5237a7cf",
+	"createdAt": "2025-03-10T09:33:06.013Z",
+	"createdBy": "luca.parente@neptune-software.com",
+	"fields": [
+		{
+			"id": "95baf87c-9a97-463b-ac79-3f08669c69bf",
+			"fieldName": "number",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"isNullable": false
+		},
+		{
+			"id": "dd8cfa57-78e5-4729-c31e-e8c76d666296",
+			"fieldName": "description",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "4ae0dae8-a8b5-4eca-e9ec-23bf724519dd",
+			"fieldName": "searchDescription",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "fbdd6398-58de-48cc-8c8d-c18fc7f1e5d5",
+			"fieldName": "productGroup1",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ed61802c-33f5-4990-a420-532f11d6fbc8",
+			"fieldName": "productGroup2",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7c4f111b-2ef3-44bb-ed73-e0fc8801fbbb",
+			"fieldName": "productGroup3",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8676b3c3-acd9-4441-9f39-4b7b5cf1439e",
+			"fieldName": "productGroup4",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "befdd282-ac87-418c-a54f-40938aa42ec7",
+			"fieldName": "unitOfMeasure",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "1438a98c-e3c1-45c3-d8b8-846894a88a43",
+			"fieldName": "grossWeight",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "8e6ba1f3-4730-458b-cf02-921e8e2e4e1e",
+			"fieldName": "netWeight",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "8e07dd2e-016d-4557-a39d-1d68793bd774",
+			"fieldName": "blocked",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": false,
+			"default": false
+		},
+		{
+			"id": "292e3a22-a89a-4915-cc52-2a9485684ed0",
+			"fieldName": "salesBlocked",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": false,
+			"default": false
+		},
+		{
+			"id": "cea0cdbe-82b2-4112-d8d5-c7a024728f72",
+			"fieldName": "purchasingBlocked",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": false,
+			"default": false
+		},
+		{
+			"id": "4134300a-1da6-43da-99b0-ceeaadf05e9e",
+			"fieldName": "blockReason",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "803bc723-ead5-4ba4-c517-0c50068607ae",
+			"fieldName": "qtyPerItem",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5afd2d1d-e11c-412d-e2f8-1e2ff003f628",
+			"fieldName": "unit",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "dc_products",
+	"description": "DC Druck Chemie Products",
+	"ver": "25.08.29.1153",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"rolesRead": [],
+	"rolesWrite": []
+}

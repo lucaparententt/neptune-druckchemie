@@ -1,0 +1,31 @@
+{
+	"id": "4cadc413-b901-f011-90c9-7c1e5237a7cf",
+	"createdAt": "2025-03-15T16:18:13.843Z",
+	"createdBy": "luca.parente@neptune-software.com",
+	"fields": [
+		{
+			"id": "da4140b2-dece-4aa9-8e3b-608fdff9b4da",
+			"fieldName": "key",
+			"fieldType": "smallint",
+			"isUnique": true,
+			"description": "Status Key"
+		},
+		{
+			"id": "2069af0a-2a90-43c1-d1b3-bf37ab2b9bf5",
+			"fieldName": "value",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Satus Description"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "dc_appointment_status",
+	"description": null,
+	"ver": "25.08.29.1151",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"rolesRead": [],
+	"rolesWrite": []
+}

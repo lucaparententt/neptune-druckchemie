@@ -1,0 +1,150 @@
+{
+	"id": "3ae75c28-90fd-ef11-90c9-7c1e5237a7cf",
+	"createdAt": "2025-03-10T09:15:13.166Z",
+	"createdBy": "luca.parente@neptune-software.com",
+	"fields": [
+		{
+			"id": "45efa9e6-e635-4c1c-f667-2f5d8012dafd",
+			"fieldName": "customerId",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "eae03854-fccb-4036-c39f-539839f987d6",
+			"fieldName": "countryCode",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "4a6aded6-5b7b-499e-ac57-8cebc6e3c9c1",
+			"fieldName": "companyName",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "01f227e6-e208-4cec-baab-a927e5609e86",
+			"fieldName": "address",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4832a79d-12b3-4cd5-83cf-510ccaf49ffe",
+			"fieldName": "postalCode",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4ad50a00-d20a-45d5-8101-251e2cd9b3d2",
+			"fieldName": "city",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1cae03bf-905c-4049-f45c-cc7048b325cf",
+			"fieldName": "province",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1f5a0377-c0e9-43be-f1e9-378c7978f2e1",
+			"fieldName": "vatNumber",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "cd8bee2d-b414-4020-f776-3cae662526d1",
+			"fieldName": "email",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b46dd87f-05ae-4994-8dc6-79ca5d6af9f2",
+			"fieldName": "phoneNumber",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0a9645e6-4b85-487f-dfe4-ca87278e0262",
+			"fieldName": "commercialName",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Commerciale",
+			"isNullable": true
+		},
+		{
+			"id": "eda4f5cd-fdd5-475f-c172-b1599f847f90",
+			"fieldName": "commercialEmail",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "cdb5a205-0b8d-4465-f953-55827dd5a55e",
+			"fieldName": "agentCode",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "539a02e9-2236-48c9-a6bd-88b9ca13ce41",
+			"fieldName": "lat",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Latitude",
+			"isNullable": true
+		},
+		{
+			"id": "2d16bb3f-6397-4657-89da-97ca873cf7a9",
+			"fieldName": "lon",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Longitude",
+			"isNullable": true
+		},
+		{
+			"id": "893f4646-18ce-4286-f62b-fa693b5f7eac",
+			"fieldName": "notes",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Problematiche",
+			"isNullable": true
+		},
+		{
+			"id": "74bc76cb-50ea-4844-e242-678262c45378",
+			"fieldName": "accountId",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"description": "Commerciale",
+			"isNullable": true,
+			"default": ""
+		},
+		{
+			"id": "b7b2b6e0-daab-44c3-8c39-e0f230746be5",
+			"fieldName": "garbage",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"description": "Rifiuti",
+			"default": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "dc_customers",
+	"description": "DC Druck Chemie Customers",
+	"ver": "25.08.29.1152",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"rolesRead": [],
+	"rolesWrite": []
+}

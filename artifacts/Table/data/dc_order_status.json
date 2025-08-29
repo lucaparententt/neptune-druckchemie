@@ -1,0 +1,38 @@
+[
+	{
+		"id": "3d04e0a5-b901-f011-90c9-7c1e5237a7cf",
+		"createdAt": "1753706115971",
+		"updatedAt": "1753706115971",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"key": 1,
+		"value": "Draft"
+	},
+	{
+		"id": "3c04e0a5-b901-f011-90c9-7c1e5237a7cf",
+		"createdAt": "1753706115971",
+		"updatedAt": "1753882936444",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"key": 2,
+		"value": "Submitted"
+	},
+	{
+		"id": "3b04e0a5-b901-f011-90c9-7c1e5237a7cf",
+		"createdAt": "1753706115971",
+		"updatedAt": "1753882936444",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"key": 3,
+		"value": "Confirmed"
+	},
+	{
+		"id": "3a04e0a5-b901-f011-90c9-7c1e5237a7cf",
+		"createdAt": "1753706115971",
+		"updatedAt": "1753882936444",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"key": 4,
+		"value": "Completed"
+	}
+]

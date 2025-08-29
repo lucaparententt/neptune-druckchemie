@@ -1,0 +1,22 @@
+[
+	{
+		"id": "583e523b-8b5d-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753706313571",
+		"updatedAt": "1753706313571",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Driver 2",
+		"email": "driver2@druckchemie.com",
+		"phone": "+390876543231"
+	},
+	{
+		"id": "573e523b-8b5d-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753706313571",
+		"updatedAt": "1753706313571",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Driver 1",
+		"email": "driver1@druckchemie.com",
+		"phone": "+391234567890"
+	}
+]

@@ -1,0 +1,182 @@
+[
+	{
+		"id": "ffc78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "MIN",
+		"areaDescr": "Milano Nord"
+	},
+	{
+		"id": "fec78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "TOB",
+		"areaDescr": "Torino Basso"
+	},
+	{
+		"id": "fdc78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "TOC",
+		"areaDescr": "Torino Cuneo"
+	},
+	{
+		"id": "fcc78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "BBS",
+		"areaDescr": "BG/BS"
+	},
+	{
+		"id": "fbc78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "SUD",
+		"areaDescr": "Sud"
+	},
+	{
+		"id": "fac78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "PIA",
+		"areaDescr": "Piacenza"
+	},
+	{
+		"id": "f9c78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "MNO",
+		"areaDescr": "Milano Nord/Ovest"
+	},
+	{
+		"id": "f8c78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "PBS",
+		"areaDescr": "Pavan + BS"
+	},
+	{
+		"id": "f7c78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "TOS",
+		"areaDescr": "Toscana"
+	},
+	{
+		"id": "f6c78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "MRC",
+		"areaDescr": "Marche"
+	},
+	{
+		"id": "f5c78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "CEN",
+		"areaDescr": "Centro"
+	},
+	{
+		"id": "f4c78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "VIC",
+		"areaDescr": "Vicenza"
+	},
+	{
+		"id": "f3c78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "MOV",
+		"areaDescr": "Milano Ovest"
+	},
+	{
+		"id": "f2c78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "PAD",
+		"areaDescr": "Padova"
+	},
+	{
+		"id": "f1c78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "MBO",
+		"areaDescr": "Modena / Bologna"
+	},
+	{
+		"id": "f0c78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "TRV",
+		"areaDescr": "Treviso"
+	},
+	{
+		"id": "efc78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "EST",
+		"areaDescr": "Est"
+	},
+	{
+		"id": "eec78165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "VAR",
+		"areaDescr": "Varese"
+	},
+	{
+		"id": "d7672ab8-df66-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "N/A",
+		"areaDescr": "Not Available"
+	},
+	{
+		"id": "00c88165-0a5b-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698197335",
+		"updatedAt": "1753698197335",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"areaCode": "VER",
+		"areaDescr": "Verona"
+	}
+]

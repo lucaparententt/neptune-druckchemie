@@ -1,0 +1,31 @@
+{
+	"id": "d464e067-b901-f011-90c9-7c1e5237a7cf",
+	"createdAt": "2025-03-15T16:20:29.180Z",
+	"createdBy": "luca.parente@neptune-software.com",
+	"fields": [
+		{
+			"id": "6c966e07-714f-4edc-e348-c025544e3154",
+			"fieldName": "key",
+			"fieldType": "smallint",
+			"isUnique": false,
+			"description": "Order Status Key"
+		},
+		{
+			"id": "a8f49e93-3cb8-41d9-eb25-feeab28ab770",
+			"fieldName": "value",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Order status Value"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "dc_order_status",
+	"description": "Order Status",
+	"ver": "25.08.29.1153",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,72 @@
+[
+	{
+		"id": "679c776c-b45c-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698071061",
+		"updatedAt": "1753698071061",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Mauro Furlani",
+		"email": "mauro.furlani@druckchemie.com",
+		"phone": "+39 348 780 8572"
+	},
+	{
+		"id": "669c776c-b45c-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698071061",
+		"updatedAt": "1753698071061",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Giorgio Vitale",
+		"email": "giorgio.vitale@druckchemie.com",
+		"phone": "+39 348 780 8572"
+	},
+	{
+		"id": "659c776c-b45c-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698071061",
+		"updatedAt": "1753698071061",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Claudio Zanchi",
+		"email": "claudio.zanchi@druckchemie.com",
+		"phone": "+39 348 780 8572"
+	},
+	{
+		"id": "649c776c-b45c-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698071061",
+		"updatedAt": "1753698071061",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Antonio Sanasi",
+		"email": "antonio.sanasi@druckchemie.com",
+		"phone": "+39 348 780 8572"
+	},
+	{
+		"id": "639c776c-b45c-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698071061",
+		"updatedAt": "1753698071061",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Max Milani",
+		"email": "max.milani@druckchemie.com",
+		"phone": "+39 348 780 8572"
+	},
+	{
+		"id": "629c776c-b45c-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698071061",
+		"updatedAt": "1753698071061",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Salvatore Cavallaro",
+		"email": "salvatore.cavallaro@druckchemie.com",
+		"phone": "+39 348 780 8572"
+	},
+	{
+		"id": "619c776c-b45c-f011-8f7c-7c1e5288250d",
+		"createdAt": "1753698071061",
+		"updatedAt": "1753698071061",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Vincenzo Capacchione",
+		"email": "vincenzo.capacchione@druckchemie.com",
+		"phone": "+39 348 780 8572"
+	}
+]

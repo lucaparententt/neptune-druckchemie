@@ -50,7 +50,68 @@
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
-	"dictionary": [],
+	"dictionary": [
+		{
+			"id": "d54d78b9-095b-f011-8f7c-7c1e5288250d",
+			"name": "dc_area",
+			"description": null
+		},
+		{
+			"id": "d464e067-b901-f011-90c9-7c1e5237a7cf",
+			"name": "dc_order_status",
+			"description": "Order Status"
+		},
+		{
+			"id": "cd064893-2057-f011-8f7c-7c1e5288250d",
+			"name": "dc_customer_tour",
+			"description": null
+		},
+		{
+			"id": "b62ffa26-0a16-f011-aaa7-6045bdde104c",
+			"name": "dc_appointments",
+			"description": null
+		},
+		{
+			"id": "8859eddb-2357-f011-8f7c-7c1e5288250d",
+			"name": "dc_customer_contacts",
+			"description": null
+		},
+		{
+			"id": "4cadc413-b901-f011-90c9-7c1e5237a7cf",
+			"name": "dc_appointment_status",
+			"description": null
+		},
+		{
+			"id": "450c9ea7-92fd-ef11-90c9-7c1e5237a7cf",
+			"name": "dc_products",
+			"description": "DC Druck Chemie Products"
+		},
+		{
+			"id": "3ae75c28-90fd-ef11-90c9-7c1e5237a7cf",
+			"name": "dc_customers",
+			"description": "DC Druck Chemie Customers"
+		},
+		{
+			"id": "39b5a46d-6c5d-f011-8f7c-7c1e5288250d",
+			"name": "dc_deliveries",
+			"description": null
+		},
+		{
+			"id": "292b1db6-075b-f011-8f7c-7c1e5288250d",
+			"name": "dc_customer_area",
+			"description": null
+		},
+		{
+			"id": "226039f9-8a5d-f011-8f7c-7c1e5288250d",
+			"name": "dc_drivers",
+			"description": null
+		},
+		{
+			"id": "057ee689-b35c-f011-8f7c-7c1e5288250d",
+			"name": "dc_agents",
+			"description": null
+		}
+	],
 	"jsclass": [],
 	"jsscript_group": [],
 	"theme": [

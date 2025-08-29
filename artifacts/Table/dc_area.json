@@ -1,0 +1,30 @@
+{
+	"id": "d54d78b9-095b-f011-8f7c-7c1e5288250d",
+	"createdAt": "2025-07-07T08:09:38.303Z",
+	"createdBy": "druckchemie",
+	"fields": [
+		{
+			"id": "87d271dd-325e-40b5-abff-207ec96f3e6d",
+			"fieldName": "areaCode",
+			"fieldType": "smalltext",
+			"isUnique": true
+		},
+		{
+			"id": "7eec4fdf-942d-4ed1-9794-85e8b9fce02c",
+			"fieldName": "areaDescr",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "dc_area",
+	"description": null,
+	"ver": "25.08.29.1151",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"rolesRead": [],
+	"rolesWrite": []
+}

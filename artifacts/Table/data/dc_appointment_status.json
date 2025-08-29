@@ -1,0 +1,29 @@
+[
+	{
+		"id": "9aa3bb50-b901-f011-90c9-7c1e5237a7cf",
+		"createdAt": "1753698095290",
+		"updatedAt": "1753778377160",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"key": 1,
+		"value": "Draft"
+	},
+	{
+		"id": "99a3bb50-b901-f011-90c9-7c1e5237a7cf",
+		"createdAt": "1753698095290",
+		"updatedAt": "1753778377160",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"key": 2,
+		"value": "Planned"
+	},
+	{
+		"id": "98a3bb50-b901-f011-90c9-7c1e5237a7cf",
+		"createdAt": "1753698095290",
+		"updatedAt": "1753778377160",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"key": 3,
+		"value": "Delivered"
+	}
+]

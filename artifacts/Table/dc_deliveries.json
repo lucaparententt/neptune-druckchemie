@@ -1,0 +1,78 @@
+{
+	"id": "39b5a46d-6c5d-f011-8f7c-7c1e5288250d",
+	"createdAt": "2025-07-10T09:01:16.216Z",
+	"createdBy": "druckchemie",
+	"fields": [
+		{
+			"id": "056f8f43-365b-412f-cd97-f7dc70ce704c",
+			"fieldName": "deliveryCode",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Codice Spedizione"
+		},
+		{
+			"id": "29adbc4c-50e4-4f74-c902-a17be208a481",
+			"fieldName": "tour",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Codice Tour"
+		},
+		{
+			"id": "b9f059be-6536-415c-9462-9abebd55f11b",
+			"fieldName": "week",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Settimana"
+		},
+		{
+			"id": "e7ca8a4b-4646-401e-e0a2-8ea9127478cb",
+			"fieldName": "area",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"description": "Area ID"
+		},
+		{
+			"id": "19851476-84c4-41e9-ce90-cff50d61cdb7",
+			"fieldName": "deliveryDate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Data Delivery",
+			"isNullable": true
+		},
+		{
+			"id": "3788c601-d740-43d4-e2b8-51011af18d65",
+			"fieldName": "truck",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"description": "Truck",
+			"isNullable": true
+		},
+		{
+			"id": "c834ad71-a98f-4c45-ae63-e97a6cedb266",
+			"fieldName": "driverId",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"description": "Driver",
+			"isNullable": true
+		},
+		{
+			"id": "76e619d3-2c6f-41a5-9160-66082274923a",
+			"fieldName": "status",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Delivery Status",
+			"isNullable": false,
+			"default": "1"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "dc_deliveries",
+	"description": null,
+	"ver": "25.08.29.1152",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"rolesRead": [],
+	"rolesWrite": []
+}

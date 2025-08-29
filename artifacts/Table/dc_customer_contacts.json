@@ -1,0 +1,52 @@
+{
+	"id": "8859eddb-2357-f011-8f7c-7c1e5288250d",
+	"createdAt": "2025-07-02T09:06:41.356Z",
+	"createdBy": "luca.parente@neptune-software.com",
+	"fields": [
+		{
+			"id": "69f3b015-dcf3-4afc-bfc1-e53663d779c9",
+			"fieldName": "customerId",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"description": "Customer ID"
+		},
+		{
+			"id": "b598a92b-d435-4074-bfa7-a8e98e4bc42c",
+			"fieldName": "contactName",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Contact Name"
+		},
+		{
+			"id": "7367b092-dd04-47a8-8749-ecfc6b9774d7",
+			"fieldName": "contactPhone",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Contact Phone"
+		},
+		{
+			"id": "715caad7-47c8-4ac9-f1e2-8848ba83efb8",
+			"fieldName": "contactEmail",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Contact Email"
+		},
+		{
+			"id": "adc5a371-92ce-4450-8fef-de4b1b84d132",
+			"fieldName": "contactType",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Contact Type"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "dc_customer_contacts",
+	"description": null,
+	"ver": "25.08.29.1152",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"rolesRead": [],
+	"rolesWrite": []
+}

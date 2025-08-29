@@ -1,0 +1,38 @@
+{
+	"id": "057ee689-b35c-f011-8f7c-7c1e5288250d",
+	"createdAt": "2025-07-09T10:57:46.816Z",
+	"createdBy": "druckchemie",
+	"fields": [
+		{
+			"id": "f1ac456d-c481-4849-eb11-4eff88f676de",
+			"fieldName": "name",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Name"
+		},
+		{
+			"id": "13690c75-1e38-4289-88e9-db80170c8250",
+			"fieldName": "email",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Email"
+		},
+		{
+			"id": "824a9ee0-d79f-41dc-9615-bfe645e16f50",
+			"fieldName": "phone",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Phone"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "dc_agents",
+	"description": null,
+	"ver": "25.08.29.1151",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"rolesRead": [],
+	"rolesWrite": []
+}

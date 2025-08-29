@@ -1,0 +1,80 @@
+{
+	"id": "b62ffa26-0a16-f011-aaa7-6045bdde104c",
+	"createdAt": "2025-04-10T12:49:00.580Z",
+	"createdBy": "luca.parente@neptune-software.com",
+	"fields": [
+		{
+			"id": "8c0bb39b-22ab-495a-f439-bab37da09cf2",
+			"fieldName": "customerCode",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "3ac0f203-cad4-4e3f-964b-10daa8e19585",
+			"fieldName": "tour",
+			"fieldType": "smallint",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "ce64fe2d-eedf-4170-cc99-a7694d4c589b",
+			"fieldName": "area",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "1fb23eb2-1058-4537-ac07-8d5acc63af66",
+			"fieldName": "startDateTime",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "3eecc58f-0a57-4f31-c278-b373f4638733",
+			"fieldName": "endDateTime",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "8983663f-2546-4975-ddee-97da33e487c9",
+			"fieldName": "truck",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "8d43e142-4113-44e8-aaa6-611785dd5d55",
+			"fieldName": "orderID",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "6dba856c-a581-4dda-e6ab-1f812bb90976",
+			"fieldName": "recurrenceDays",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "db83bbe7-c9b7-481e-b066-f07277a14e16",
+			"fieldName": "status",
+			"fieldType": "smallint",
+			"isUnique": false,
+			"isNullable": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "dc_appointments",
+	"description": null,
+	"ver": "25.08.29.1151",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07",
+	"rolesRead": [],
+	"rolesWrite": []
+}
