@@ -1,0 +1,39 @@
+var file = oEvent.getParameter("files")[0];
+
+try {
+    if (file && window.FileReader) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            var WA_ATTACHMENT = {
+                DOCDES: file.name,
+                FILE_EXT: file.type,
+                DOC_SIZE: file.size,
+                CONTENT: reader.result,
+            };
+
+            tabAttachment.setBusy(true);
+
+            apiSaveAttachment({
+                data: {
+                    WA_ATTACHMENT: WA_ATTACHMENT,
+                },
+                parameters: {
+                    IM_PARTNER_GUID: modelDataCustomer.oData.result.WA_BUPA_DETAIL.PARTNER_GUID,
+                },
+            });
+        };
+
+        reader.onerror = function (e) {
+            console.error(e);
+        };
+        if (
+            modelDataCustomer.oData.result.WA_BUPA_DETAIL.PARTNER_GUID !==
+            "00000000000000000000000000000000"
+        ) {
+            reader.readAsDataURL(file);
+        }
+    }
+} catch (e) {
+    console.error(e);
+}

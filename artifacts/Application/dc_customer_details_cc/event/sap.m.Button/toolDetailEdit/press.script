@@ -1,0 +1,31 @@
+sap.n.Planet9.function({
+    id: "Locking",
+    method: "Lock",
+    data: {
+        objectType: dataSet,
+        // objectKey: modelDataCustomer.oData.result.WA_BUPA_DETAIL.NAME1,
+        objectID: startParams.PARTNER_GUID,
+    },
+    success: function(data) {
+
+        if (data.object) {
+            modeldiaLocked.setData(data.object);
+            sap.n.Planet9.lockCallback = toolDetailEdit;
+            diaLocked.open();
+        } else {
+            var options = {
+                parameters: {
+                    customerId: startParams.PARTNER_GUID
+                }
+            };
+
+            oApp.setBusy(true);
+            apiGetDetail(options);
+            toggleEdit(true);
+        }
+
+    },
+    error: function(data) {
+        sap.m.MessageToast.show(data.status);
+    }
+});

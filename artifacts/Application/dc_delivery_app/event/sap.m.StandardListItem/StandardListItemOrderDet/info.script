@@ -1,0 +1,4 @@
+if (typeof average_amount === "undefined" || average_amount === null || average_amount === "") { return; }  
+if (typeof unitOfMeasure === "undefined" || unitOfMeasure === null || unitOfMeasure === "") { return; }  
+var formattedText = average_amount + " " + unitOfMeasure; 
+return formattedText;

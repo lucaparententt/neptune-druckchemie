@@ -1,0 +1,145 @@
+.LeftBoxes {
+  width: 20%;
+  height: 99%;
+}
+
+.MainBoxes {
+  width: 55%;
+  height: 99%;
+}
+
+.RightBoxes {
+  width: 20%;
+  height: 99%;
+}
+
+.TextStatus {
+  font-size: 15px;
+  font-weight: bold;
+  color: green;
+}
+
+.sapUiCalMulti:not(.sapUiCalInt) {
+  width: 100%;
+}
+
+.customCalendarStyle {
+  width: 100% !important;
+}
+
+.customCalendarStyle .sapUiCalItem {
+  height: 60px;
+  position: relative;
+}
+
+.customCalendarStyle .sapUiCalItem[title]::after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: auto;
+  top: 20px;
+}
+
+.Title {
+  font-size: 15px;
+}
+
+.Title2 {
+  font-size: 0.75rem !important;
+}
+
+.TitleLeftDays {
+  color: green;
+  font-size: 20px;
+}
+
+.TitleList {
+  font-size: 20px;
+}
+
+.TitleCurrentTourNumber {
+  color: red;
+  font-size: 20px;
+}
+
+.TitleMain {
+  font-size: 20px;
+}
+
+.ListSection1 {
+  border: 1px solid red;
+  border-radius: 40px;
+}
+
+.ListSection {
+  border: 1px solid #0070f2;
+  border-radius: 40px;
+}
+
+.ListSection2 {
+  border: 1px solid green;
+  border-radius: 40px;
+}
+
+.sapMTitleDC {
+  color: rgb(141, 198, 63);
+}
+
+.sapMTitleDC2 {
+  font-size: 0.85rem !important;
+  color: rgb(141, 198, 63);
+}
+
+.sapMTitleStyleAuto {
+  font-size: 1.2rem;
+}
+
+.sapMListUl .sapMLIB.sapMGHLI {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1rem;
+  font-weight: normal;
+  color: rgb(141, 198, 63);
+  border-bottom: 0.0625rem solid rgb(141, 198, 63);
+}
+
+.sapMObjLIntro {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "72", "72full", Arial, Helvetica, sans-serif;
+  color: #8396a8;
+  font-size: 0.75rem;
+}
+
+.sapMObjLNumberDiv .sapMObjectNumber .sapMObjectNumberText {
+  font-size: 0.75rem;
+}
+
+.sapMIBar-CTX .sapMTitle {
+  color: rgb(141, 198, 63);
+}
+
+span.sapMBtnInner.sapMBtnEmphasized {
+  background-image: none;
+  background-color: rgb(141, 198, 63);
+  border-color: rgb(141, 198, 63);
+}
+
+.sapMOHIcon .sapUiIcon {
+  color: rgb(141, 198, 63);
+}
+
+.sapMOHTitle h6 .sapMText,
+.sapMOHTitle h5 .sapMText,
+.sapMOHTitle h4 .sapMText,
+.sapMOHTitle h3 .sapMText,
+.sapMOHTitle h2 .sapMText,
+.sapMOHTitle h1 .sapMText {
+  color: rgb(141, 198, 63);
+}
+
+.sapMITBContent {
+  border-bottom: 0.05rem;
+}

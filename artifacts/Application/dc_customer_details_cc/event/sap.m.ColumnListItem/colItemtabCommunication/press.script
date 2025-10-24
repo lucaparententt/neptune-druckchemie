@@ -1,0 +1,42 @@
+return;
+var context = oEvent.oSource.getBindingContext("DataCustomer");
+var dataFile = context.getObject();
+
+switch (dataFile.FILE_EXT) {
+
+    case "PNG":
+        dataFile.CONTENT = "data:image/png;base64," + dataFile.CONTENT;
+        break;
+
+    case "PDF":
+        dataFile.CONTENT = "data:application/pdf;base64," + dataFile.CONTENT;
+        break;
+
+    case "JPG":
+    case "JPEG":
+        dataFile.CONTENT = "data:image/jpeg;base64," + dataFile.CONTENT;
+        break;
+
+    case "DOC":
+    case "DOCX":
+        dataFile.CONTENT = "data:application/vnd.openxmlformats-officedocument.wordprocessingml.document;base64," + dataFile.CONTENT;
+
+        break;
+
+    default:
+        dataFile.CONTENT = "data:text/html;base64," + dataFile.CONTENT;
+        break;
+
+}
+
+// Download 
+if (window.navigator.msSaveOrOpenBlob) {
+    var fileData = [dataFile.CONTENT];
+    var blobObject = new Blob(fileData);
+    window.navigator.msSaveOrOpenBlob(blobObject, dataFile.DOCDES);
+} else {
+    a = document.createElement('a');
+    a.setAttribute("href", dataFile.CONTENT);
+    a.setAttribute("download", dataFile.DOCDES);
+    a.click();
+}

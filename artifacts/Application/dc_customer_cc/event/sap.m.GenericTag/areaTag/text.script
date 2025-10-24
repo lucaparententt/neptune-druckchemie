@@ -1,0 +1,6 @@
+if (typeof area === "undefined" || area === null || area === "") { return; }  
+const areaObj = modelMasterData.getData().aree.find(a=>a.id === area); 
+if(areaObj){
+    return areaObj.areaCode
+}
+return "";

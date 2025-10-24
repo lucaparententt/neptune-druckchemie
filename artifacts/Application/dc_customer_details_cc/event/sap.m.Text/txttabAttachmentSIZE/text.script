@@ -1,0 +1,3 @@
+if (typeof DOC_SIZE === "undefined" || DOC_SIZE === null || DOC_SIZE === "") { return; }  
+
+return oFileSizeFormat.format(DOC_SIZE);

@@ -1,0 +1,11 @@
+if (!modelDataCustomer.oData.result.IT_COMMUNICATION) modelDataCustomer.oData.result.IT_COMMUNICATION = [];
+
+modelDataCustomer.oData.result.IT_COMMUNICATION.push({
+    PARTNER: modelDataCustomer.oData.result.WA_BUPA_DETAIL.PARTNER,
+    PARTNER_GUID: modelDataCustomer.oData.result.WA_BUPA_DETAIL.PARTNER_GUID,    
+    KUNNR: modelDataCustomer.oData.result.WA_BUPA_DETAIL.KUNNR,
+    TYPE: "I",
+    EMAIL: ""
+})
+
+modelDataCustomer.refresh();

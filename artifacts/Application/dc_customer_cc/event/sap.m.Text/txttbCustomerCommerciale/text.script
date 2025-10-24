@@ -1,0 +1,7 @@
+if (typeof accountId === "undefined" || accountId === null || accountId === "") { return; }  
+let agent = modelMasterData.getData().agents.find(a => a.id === accountId);
+let formattedText;
+if(agent){
+    formattedText = agent.name
+}
+return formattedText;

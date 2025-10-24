@@ -1,0 +1,18 @@
+var deleteItem = oEvent.getParameter("listItem");
+var context = deleteItem.getBindingContext("DataCustomer");
+var data = context.getObject();
+
+var options = {
+    parameters: {
+        "IV_ROLE_A": data.INSTID_A,
+        "IV_ROLE_B": data.INSTID_B,
+    },
+};
+
+ModelData.Delete(
+    modelDataCustomer.oData.result.IT_ATTACHMENT,
+    ["INSTID_A", "INSTID_B"],
+    [data.INSTID_A, data.INSTID_B]
+);
+tabAttachment.setBusy(true);
+apiDeleteAttachment(options);

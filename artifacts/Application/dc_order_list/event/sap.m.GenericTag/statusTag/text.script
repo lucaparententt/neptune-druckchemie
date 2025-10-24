@@ -1,0 +1,5 @@
+if (typeof status === "undefined" || status === null || status === "") { return; }  
+
+var formattedText= modelMasterData.getData().orderStatus.find(dS => dS.key == status).value
+
+return formattedText;

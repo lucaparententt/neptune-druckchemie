@@ -1,0 +1,3 @@
+if (typeof tourStr === "undefined" || tourStr === null || tourStr === "" || tourStr == 5) { return true; }else{
+    return false
+}  

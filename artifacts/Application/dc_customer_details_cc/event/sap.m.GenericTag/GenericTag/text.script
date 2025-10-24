@@ -1,0 +1,19 @@
+if (typeof contactType === "undefined" || contactType === null || contactType === "") { return; }  
+var formattedText = contactType; 
+
+var formattedText;
+switch (contactType) {
+    case "1":
+        formattedText = "Principale";
+        break;
+    case "2":
+        formattedText = "Secondario";
+        break;
+    case "3":
+        formattedText = "Rifiuti";
+        break;
+}
+
+return formattedText;
+
+return formattedText;

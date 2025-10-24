@@ -1,0 +1,3 @@
+if (typeof appointments_status === "undefined" || appointments_status === null || appointments_status === "") { return; }  
+var formattedText = modelMasterData.getData().appointmentStatus.find(statusMD => statusMD.key === appointments_status).value; 
+return formattedText;

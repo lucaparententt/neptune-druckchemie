@@ -1,0 +1,42 @@
+var context = oEvent.oSource.getBindingContext("DataCustomer");
+var data = context.getObject();
+
+if (sap.ui.Device.system.phone || window.innerWidth < 1600) {
+    oApp.setBusy(true);
+
+    AppCache.Load("zui_bupa_detail", {
+        parentObject: oPageDetail,
+        startParams: {
+            PARTNER_GUID: data.PGUID_WE,
+            afterAjax: function () {
+                oApp.to(oPageDetail);
+                oApp.setBusy(false);
+            },
+            onBack: function () {
+                oApp.back();
+            },
+        },
+    });
+} else {
+    //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 Start
+    // sap.n.Shell.loadSidepanel("zui_bupa_detail", data.NAME1_WE, {
+    //     resizeable: true,
+    //     additionaltext: "Customer",
+    //     startParams: {
+    //         PARTNER_GUID: data.PGUID_WE,
+    //     }
+    // });
+    //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 End
+
+    //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 Start
+    sap.n.Shell.loadSidepanel("zui_bupa_detail", {
+        tabTitle: data.NAME1_WE,
+        tabId: `zui_bupa_detail_${data.PGUID_WE}`,
+        resizeable: true,
+        additionaltext: "Customer",
+        startParams: {
+            PARTNER_GUID: data.PGUID_WE,
+        },
+    });
+    //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 End
+}

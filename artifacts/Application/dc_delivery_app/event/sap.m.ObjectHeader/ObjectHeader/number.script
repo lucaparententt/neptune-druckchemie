@@ -1,0 +1,3 @@
+if (typeof appointments_appointmentDate === "undefined" || appointments_appointmentDate === null || appointments_appointmentDate === "") { return; }  
+var formattedText = appointments_appointmentDate; 
+return formatDateDDMMYYYY(formattedText);

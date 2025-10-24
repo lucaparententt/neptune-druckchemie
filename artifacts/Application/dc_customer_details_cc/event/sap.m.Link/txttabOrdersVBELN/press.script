@@ -1,0 +1,111 @@
+var context = oEvent.oSource.getBindingContext("DataCustomer");
+var data = context.getObject();
+
+if (sap.ui.Device.system.phone || window.innerWidth < 1600) {
+    oApp.setBusy(true);
+
+    if (data.VBTYP === "G") {
+        AppCache.Load("zui_contract_detail", {
+            parentObject: oPageDetail,
+            startParams: {
+                VBELN: data.VBELN,
+                AUART_T: data.AUART_T,
+                VBTYP: data.VBTYP,
+                afterSave: function () {
+                    toolFilterUpdate.firePress();
+                },
+                afterAjax: function () {
+                    oApp.to(oPageDetail);
+                    oApp.setBusy(false);
+                },
+                onBack: function () {
+                    oApp.back();
+                },
+            },
+        });
+    } else {
+        AppCache.Load("zui_sales_order_detail", {
+            parentObject: oPageDetail,
+            startParams: {
+                VBELN: data.VBELN,
+                AUART_T: data.AUART_T,
+                VBTYP: data.VBTYP,
+                afterSave: function () {
+                    toolFilterUpdate.firePress();
+                },
+                afterAjax: function () {
+                    oApp.to(oPageDetail);
+                    oApp.setBusy(false);
+                },
+                onBack: function () {
+                    oApp.back();
+                },
+            },
+        });
+    }
+} else {
+    if (data.VBTYP === "G") {
+        //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 Start
+        // sap.n.Shell.loadSidepanel(
+        //     "zui_contract_detail",
+        //     data.AUART_T + " (" + parseInt(data.VBELN) + ")",
+        //     {
+        //         resizeable: true,
+        //         additionaltext: "Document",
+        //         startParams: {
+        //             VBELN: data.VBELN,
+        //             AUART_T: data.AUART_T,
+        //             VBTYP: data.VBTYP,
+        //         },
+        //     }
+        // );
+        //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 End
+
+        //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 Start
+        sap.n.Shell.loadSidepanel("zui_contract_detail", {
+            tabTitle: data.AUART_T + " (" + parseInt(data.VBELN) + ")",
+            tabId: `zui_contract_detail_${data.VBELN}`,
+            resizeable: true,
+            additionaltext: "Document",
+            startParams: {
+                VBELN: data.VBELN,
+                AUART_T: data.AUART_T,
+                VBTYP: data.VBTYP,
+            },
+        });
+        //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 End
+    } else {
+        //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 Start
+        // sap.n.Shell.loadSidepanel(
+        //     "zui_sales_order_detail",
+        //     data.AUART_T + " (" + parseInt(data.VBELN) + ")",
+        //     {
+        //         resizeable: true,
+        //         additionaltext: "Document",
+        //         startParams: {
+        //             VBELN: data.VBELN,
+        //             AUART_T: data.AUART_T,
+        //             VBTYP: data.VBTYP,
+        //         },
+        //     }
+        // );
+        //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 End
+
+        //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 Start
+        sap.n.Shell.loadSidepanel(
+            "zui_sales_order_detail",
+            {
+                tabTitle: data.AUART_T + " (" + parseInt(data.VBELN) + ")",
+                tabId: `zui_sales_order_detail_${data.VBELN}`,
+                resizeable: true,
+                additionaltext: "Document",
+                startParams: {
+                    VBELN: data.VBELN,
+                    AUART_T: data.AUART_T,
+                    VBTYP: data.VBTYP,
+                },
+            }
+        );
+        //BT@DB - UpgradeFix - v24.11.0 - 21/03/2025 End
+    }
+}

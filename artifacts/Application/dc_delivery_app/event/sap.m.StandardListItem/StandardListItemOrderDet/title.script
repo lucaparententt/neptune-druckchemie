@@ -1,0 +1,4 @@
+if (typeof number === "undefined" || number === null || number === "") { return; }  
+if (typeof description === "undefined" || description === null || description === "") { return; }  
+var formattedText = number + " - " + description; 
+return formattedText;

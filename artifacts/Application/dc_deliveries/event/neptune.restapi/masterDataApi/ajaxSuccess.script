@@ -1,0 +1,13 @@
+/**
+ * Name: DruckChemieSC
+ * Description: Druck Chemie Server Script
+ *
+ * Path: /getCustomers
+ * Method: GET
+ *
+ */
+
+deliveries_cc.setMasterData(modelMasterData.getData())
+var options = {};
+
+apicustomerAPi(options);

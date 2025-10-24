@@ -1,0 +1,10 @@
+if (typeof garbage === "undefined" || garbage === null || garbage === "") {
+    return;
+}
+let formattedText;
+if (garbage) {
+    formattedText = "sap-icon://fas/check";
+} else {
+    formattedText = "sap-icon://decline";
+}
+return formattedText;

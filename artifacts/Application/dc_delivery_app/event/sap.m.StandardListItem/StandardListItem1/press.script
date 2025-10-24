@@ -1,0 +1,6 @@
+const orderID = this.mBindingInfos.title.binding.getBindings().find(b=> b.sPath === 'orderNumber').getValue()
+
+
+const orderItems = modelAppointments.oData.appointments.find(app => app.orderID=== orderID).order.orderItems;
+
+modelListOrdersDet.setData(orderItems);

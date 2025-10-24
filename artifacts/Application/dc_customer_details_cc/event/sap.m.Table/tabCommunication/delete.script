@@ -1,0 +1,8 @@
+// Delete item in list
+var deleteItem = oEvent.getParameter("listItem");
+const context = deleteItem.getBindingContext("DataCustomer");
+var data = context.getObject();
+
+ModelData.Delete(modelDataCustomer.oData.result.IT_COMMUNICATION, "EMAIL", data.EMAIL);
+modelDataCustomer.refresh();
+

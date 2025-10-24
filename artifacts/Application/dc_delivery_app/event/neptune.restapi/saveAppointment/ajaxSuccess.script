@@ -1,0 +1,4 @@
+// Use MessageToast with default properties
+sap.m.MessageToast.show(modelResult.getData().message);
+const formattedDate = formatDate(dateApointment.getValue());
+getAppointmentList(formattedDate,formattedDate,null)

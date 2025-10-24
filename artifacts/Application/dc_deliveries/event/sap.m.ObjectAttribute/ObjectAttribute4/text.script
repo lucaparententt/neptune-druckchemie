@@ -1,0 +1,4 @@
+if (typeof defaultOrderQty === "undefined" || defaultOrderQty === null || defaultOrderQty === "" || Object.keys(defaultOrderQty).length === 0) { return "N/A"; }  
+
+var formattedText = Object.entries(defaultOrderQty).map(([k, v]) => `${k}:${v}`).join(', ') 
+return formattedText;

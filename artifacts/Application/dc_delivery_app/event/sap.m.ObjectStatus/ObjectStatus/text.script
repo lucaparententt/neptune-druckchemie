@@ -1,0 +1,3 @@
+if (typeof appointments_tour === "undefined" || appointments_tour === null || appointments_tour === "") { return; }  
+var formattedText = appointments_tour; 
+return "Tour " + formattedText;

@@ -1,0 +1,32 @@
+var processFunction = function () {
+
+    if (toolDetailDisplay.getVisible()) {
+        sap.n.Planet9.function({
+            id: "Locking",
+            method: "Unlock",
+            data: {
+                objectType: dataSet,
+                objectID: modelDataCustomer.oData.result.WA_BUPA_DETAIL.PARTNER_GUID,
+            },
+            success: function (data) { }
+        });
+    }
+
+    var options = {
+        parameters: {
+            "IM_PARTNER_GUID": modelDataCustomer.oData.result.WA_BUPA_DETAIL.PARTNER_GUID
+        }
+    };
+
+    oApp.setBusy(true);
+    apiGetDetail(options);
+    toggleEdit(false);
+
+};
+
+// Check for changes
+if (dataSaved !== modelDataCustomer.getJSON()) {
+    messageChange(processFunction);
+} else {
+    processFunction();
+}

@@ -1,0 +1,10 @@
+if (typeof garbage === "undefined" || garbage === null || garbage === "") {
+    return;
+}
+let formattedText;
+if (garbage) {
+    formattedText = "Success";
+} else {
+    formattedText = "Error";
+}
+return formattedText;

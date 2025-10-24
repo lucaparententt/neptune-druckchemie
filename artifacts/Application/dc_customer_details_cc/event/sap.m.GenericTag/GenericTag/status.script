@@ -1,0 +1,17 @@
+if (typeof contactType === "undefined" || contactType === null || contactType === "") { return; }  
+var formattedText;
+switch (contactType) {
+    case "1":
+        formattedText = "Success";
+        break;
+    case "2":
+        formattedText = "Warning";
+        break;
+    case "3":
+        formattedText = "Error";
+        break;
+}
+
+return formattedText;
+
+// return formattedText;

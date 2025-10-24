@@ -1,0 +1,3 @@
+if (typeof appointments_status === "undefined" || appointments_status === null || appointments_status === "") { return; }  
+var formattedText = getAppointmentState(appointments_status); 
+return formattedText;

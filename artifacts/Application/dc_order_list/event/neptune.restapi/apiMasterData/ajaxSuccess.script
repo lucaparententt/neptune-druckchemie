@@ -1,0 +1,11 @@
+/**
+ * Name: DruckChemieSC
+ * Description: Druck Chemie Server Script
+ *
+ * Path: /getDeliveries
+ * Method: GET
+ *
+ */
+var options = {};
+
+apiOrdersAPI(options);

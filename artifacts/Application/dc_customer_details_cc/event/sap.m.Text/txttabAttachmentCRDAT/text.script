@@ -1,0 +1,14 @@
+if (typeof CRDAT === "undefined" || CRDAT === null || CRDAT === "") {
+    return;
+}
+var oSAPFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({
+    pattern: "yyyyMMddhhmmss"
+});
+
+var oDate = oSAPFormat.parse(CRDAT);
+
+var oOutFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({
+    pattern: "dd.MM.yyyy HH:mm"
+});
+
+return oOutFormat.format(oDate);

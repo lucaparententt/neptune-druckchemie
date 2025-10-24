@@ -1,0 +1,24 @@
+var processFunction = function () {
+
+    if (toolDetailDisplay.getVisible()) {
+        sap.n.Planet9.function({
+            id: "Locking",
+            method: "Unlock",
+            data: {
+                objectType: dataSet,
+                objectID: startParams.PARTNER_GUID,
+            },
+            success: function (data) { }
+        });
+    }
+
+    if (startParams.onBack) startParams.onBack();
+
+};
+
+// Check for changes
+if (dataSaved !== modelDataCustomer.getJSON()) {
+    messageChange(processFunction);
+} else {
+    processFunction();
+}

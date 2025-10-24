@@ -1,0 +1,82 @@
+const dummyOrder  = [
+    {
+        "products_id": "F3A20754-B19E-47F0-9BAD-00113969B40D",
+        "products_productId": 940,
+        "products_no": "04009006",
+        "products_description": "Farblöser Regum, 20 Liter",
+        "products_type": "Inventory",
+        "products_baseUnitOfMeasure": "LITER",
+        "products_searchDescription": "REGUM,20 L",
+        "products_gslOption": " ",
+        "products_showOnIpad": true,
+        "products_pawnItem": "X1020",
+        "products_pawnAmount": 20,
+        "products_unitCost": 1,
+        "products_etag": "W/\"'36%3BGwAAAAJ7CDAANAAwADAAOQAwADAANgAAAAAA10%3B30923087600%3B'\"",
+        "products_price": 7,
+        "products_documentNumber": "04009",
+        "average_amount": 2,
+        "average_amount_conf": 2
+    },
+    {
+        "products_id": "DABF3626-20BD-47B8-A81D-2C553BE09FBB",
+        "products_productId": 174,
+        "products_no": "55010070107",
+        "products_description": "DC Primer SF matt 1.0, 150 kg",
+        "products_type": "Inventory",
+        "products_baseUnitOfMeasure": "KG",
+        "products_searchDescription": "PRIMER MATT 1.0,150 KG",
+        "products_gslOption": " ",
+        "products_showOnIpad": true,
+        "products_pawnItem": "X5107",
+        "products_pawnAmount": 150,
+        "products_unitCost": 2,
+        "products_etag": "W/\"'44%3BGwAAAAJ7CzUANQAwADEAMAAwADcAMAAxADAANwAAAAAA10%3B30911246180%3B'\"",
+        "products_price": 7,
+        "products_documentNumber": "55010070",
+        "average_amount": 4,
+        "average_amount_conf": 4
+    },
+    {
+        "products_id": "E2A50BD9-C8E8-4BBC-9F32-767989B8BE97",
+        "products_productId": 625,
+        "products_no": "05946399",
+        "products_description": "Korrekturstift -3 (extra breit)",
+        "products_type": "Inventory",
+        "products_baseUnitOfMeasure": "STÜCK",
+        "products_searchDescription": "KORREKTURSTIFT -3",
+        "products_gslOption": " ",
+        "products_showOnIpad": true,
+        "products_pawnItem": "",
+        "products_pawnAmount": 1,
+        "products_unitCost": 4,
+        "products_etag": "W/\"'36%3BGwAAAAJ7CDAANQA5ADQANgAzADkAOQAAAAAA10%3B30868258750%3B'\"",
+        "products_price": 10,
+        "products_documentNumber": "05946399",
+        "average_amount": 5,
+        "average_amount_conf": 5
+    },
+    {
+        "products_id": "C7F84669-EEBC-4E01-B535-FF397999B63A",
+        "products_productId": 512,
+        "products_no": "55010033004",
+        "products_description": "DC Varnish SF highgloss, 25 kg",
+        "products_type": "Inventory",
+        "products_baseUnitOfMeasure": "KG",
+        "products_searchDescription": "VARNISH SF HIGHGLOSS,25 KG",
+        "products_gslOption": " ",
+        "products_showOnIpad": false,
+        "products_pawnItem": "X5004",
+        "products_pawnAmount": 25,
+        "products_unitCost": 2,
+        "products_etag": "W/\"'44%3BGwAAAAJ7CzUANQAwADEAMAAwADMAMwAwADAANAAAAAAA10%3B30837759310%3B'\"",
+        "products_price": 6,
+        "products_documentNumber": "55010033",
+        "average_amount": 5,
+        "average_amount_conf": 5
+    }
+]
+
+
+
+modelproductsTable.setData(dummyOrder)

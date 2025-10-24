@@ -1,0 +1,88 @@
+// Check for Required fields 
+if (!modelDataCustomer.oData.result.WA_BUPA_DETAIL.NAME1 ||
+    !modelDataCustomer.oData.result.WA_ADDRESS.COUNTRY ||
+    !modelDataCustomer.oData.result.WA_BUPA_DETAIL.WAERS ||
+    !modelDataCustomer.oData.result.WA_BUPA_DETAIL.ZTERM
+) {
+    sap.m.MessageToast.show("Please fill all required fields");
+    return;
+}
+
+//Checking Emails
+if (modelDataCustomer.oData.result.IT_COMMUNICATION.length == 0) {
+    sap.m.MessageToast.show("Please fill all required fields");
+    return;
+} else if (modelDataCustomer.oData.result.IT_COMMUNICATION[0].EMAIL == '')
+{
+    sap.m.MessageToast.show("Please fill all required fields");
+    return;    
+} else if (!ModelData.FindFirst(modelDataCustomer.oData.result.IT_COMMUNICATION, "TYPE", "I", "EQ"))
+{
+    sap.m.MessageToast.show("Please maintain Invoice Recipient Email");
+    return;  
+} else if (!lv_ValidEmail){
+    sap.m.MessageToast.show("Please maintain correct Email format");
+    return;   
+}
+
+// else (!ModelData.FindFirst(modelDataCustomer.oData.result.IT_COMMUNICATION, "TYPE", "I", "EQ"))
+// {
+//     sap.m.MessageToast.show("Please maintain Invoice Recipient Email");
+//     return; 
+// }    
+
+if (!modelDataCustomer.oData.result.WA_BUPA_DETAIL.DEAR1 &&
+    !modelDataCustomer.oData.result.WA_BUPA_DETAIL.DEAR2 &&
+    !modelDataCustomer.oData.result.WA_BUPA_DETAIL.DEAR3 &&
+    !modelDataCustomer.oData.result.WA_BUPA_DETAIL.DEAR5
+) {
+    sap.m.MessageToast.show("Required Field: Customer Type");
+    return;
+}
+
+if (!modelDataCustomer.oData.result.WA_BUPA_DETAIL.ENABLE1000 &&
+    !modelDataCustomer.oData.result.WA_BUPA_DETAIL.ENABLE2000 &&
+    !modelDataCustomer.oData.result.WA_BUPA_DETAIL.ENABLE3000 &&
+    !modelDataCustomer.oData.result.WA_BUPA_DETAIL.ENABLE4000 &&
+    !modelDataCustomer.oData.result.WA_BUPA_DETAIL.ENABLE6000 
+) {
+    sap.m.MessageToast.show("Required Field: Sales Organization");
+    return;
+}
+
+if (!modelDataCustomer.oData.result.WA_ADDRESS.POSTL_COD1 &&
+    !modelDataCustomer.oData.result.WA_ADDRESS.CITY
+) {
+    sap.m.MessageToast.show("Required Field: City & ZIP");
+    return;
+}
+
+// Check Country for EU 
+var country = ModelData.FindFirst(modelOrgData.oData.result.IT_COUNTRY, "LAND1", modelDataCustomer.oData.result.WA_ADDRESS.COUNTRY);
+
+if (country && country.XEGLD) {
+    if (!modelDataCustomer.oData.result.IT_TAXNUMBERS.length) {
+        sap.m.MessageToast.show("Country in EU. Please enter VAT Number");
+        return;
+    }
+}
+
+
+// Update 
+oApp.setBusy(true);
+
+var options = {
+    parameters: {
+        "IM_PARTNER": modelDataCustomer.oData.result.WA_BUPA_DETAIL.PARTNER,
+        "IM_PARTNER_GUID": modelDataCustomer.oData.result.WA_BUPA_DETAIL.PARTNER_GUID
+    },
+    data: {
+        WA_ADDRESS: modelDataCustomer.oData.result.WA_ADDRESS,
+        WA_BUPA_DETAIL: modelDataCustomer.oData.result.WA_BUPA_DETAIL,
+        IT_TAXNUMBERS: modelDataCustomer.oData.result.IT_TAXNUMBERS,
+        IT_COMMUNICATION: modelDataCustomer.oData.result.IT_COMMUNICATION
+    }
+};
+
+apiSave(options);
+lv_ValidEmail = true;

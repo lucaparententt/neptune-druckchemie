@@ -1,0 +1,59 @@
+// App.setBusy(true);
+// var tooltip = "";
+// var type = SelectReason.getSelectedKey();
+// var calType;
+// if (type === "Vacation") {
+//     tooltip = "Vac";
+//     calType = "Type01";
+// }
+// if (type === "National Holiday") {
+//     tooltip = "Nat";
+//     calType = "Type02";
+// }
+// if (type === "Sick Leave") {
+//     tooltip = "SC";
+//     calType = "Type03";
+// }
+// // sent = Type03
+// // approved = Type01
+// // rejected = Type02
+
+
+// if (SelectReason.getSelectedKey() === "") {
+//     sap.m.MessageToast.show("Reason can not be empty!");
+//     App.setBusy(false);
+//     return;
+// }
+// if (InputYear.getValue() === "") {
+//     sap.m.MessageToast.show("Dates can not be empty!");
+//     App.setBusy(false);
+//     return;
+// }
+// InputDaysleft.setValue();
+// UUID = generateUUID();
+// var options = {
+//     data: {
+//         start_date: InputFrom.getValue(),
+//         end_date: InputTo.getValue(),
+//         total_days: InputRequestedDays.getValue(),
+//         status: "Sent",
+//         type: calType,
+//         year: InputYear.getValue(),
+//         extra_details: TextAreaExtraDetails.getValue(),
+//         tooltip: tooltip,
+//         Uniqe_id: UUID
+//     },
+// };
+// apiRestAPISAVE(options);
+
+
+
+
+
+saveAppointments();
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+if (typeof defaultOrderId === "undefined" || defaultOrderId === null || defaultOrderId === "") {
+    return;
+}
+let formattedText;
+if (defaultOrderId) {
+    formattedText = "Success";
+} else {
+    formattedText = "Error";
+}
+return formattedText;

@@ -1,0 +1,4 @@
+if (typeof orderNumber === "undefined" || orderNumber === null || orderNumber === "") { return; }  
+if (typeof customerId === "undefined" || customerId === null || customerId === "") { return; }  
+var formattedText = orderNumber + "(" + customerId+")" ; 
+return formattedText;

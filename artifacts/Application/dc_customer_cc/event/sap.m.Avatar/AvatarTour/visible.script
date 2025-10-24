@@ -1,0 +1,3 @@
+if (typeof tourStr === "undefined" || tourStr === null || tourStr === "") { return false; }  
+var formattedText = tourStr.includes("1"); 
+return formattedText;

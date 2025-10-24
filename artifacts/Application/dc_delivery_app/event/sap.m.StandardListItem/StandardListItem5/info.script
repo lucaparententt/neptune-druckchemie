@@ -1,0 +1,3 @@
+if (typeof totalWeight === "undefined" || totalWeight === null || totalWeight === "") { return; }  
+var formattedText = totalWeight + " KG"; 
+return formattedText;

@@ -1,0 +1,25 @@
+/**
+ * Name: zcl_api_bupa
+ * Description: 
+ * 
+ * Path: /getRegion
+ * Method: GET
+ * 
+ * Parameters:
+ * $select - Optional parameter 
+ * Description: Select fieldnames to be returned. Separated by comma
+ * sap-client - Required parameter 
+ * Description: SAP Client
+ * default: 100
+ * IV_LAND1 - Required parameter 
+ * Description: Country Key
+ * 
+ */
+var options = {
+    parameters: {
+        "sap-client": "100",
+        "IV_LAND1": this.getSelectedKey()
+    }
+};
+
+apigetRegion(options);

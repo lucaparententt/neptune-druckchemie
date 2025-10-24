@@ -1,0 +1,10 @@
+var options = {
+    parameters: {
+        "IM_PARTNER_GUID": startParams.PARTNER_GUID
+    }
+};
+
+oApp.setBusy(true);
+apiGetDetail(options);
+
+getBillableDocuments(); //BT@DB 28/02/2025

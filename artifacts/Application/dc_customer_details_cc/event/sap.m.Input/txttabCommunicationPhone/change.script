@@ -1,0 +1,8 @@
+lv_ValidEmail = validateEmail(oEvent.oSource.mBindingInfos.value.binding.oValue);
+if (lv_ValidEmail) {
+    let index = oEvent.oSource.getBindingContext("DataCustomer").sPath.slice(-1);
+    modelDataCustomer.oData.result.IT_COMMUNICATION[index].FLAG = "U";
+    modelDataCustomer.refresh();
+} else {
+    sap.m.MessageToast.show("Please maintain correct Email format");
+}

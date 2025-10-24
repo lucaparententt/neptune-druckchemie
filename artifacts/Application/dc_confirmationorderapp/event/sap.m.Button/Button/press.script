@@ -1,0 +1,12 @@
+
+
+var options = {
+  parameters: {
+    clientName: "CTS GRAFICA SRL SB", // Optional
+    clientNo: "C00954", // Optional
+  },
+};
+
+apisendEmailOrderConfirmed(options);
+
+oApp.to(PageConfirmed)

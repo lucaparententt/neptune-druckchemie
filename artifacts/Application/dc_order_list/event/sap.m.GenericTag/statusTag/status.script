@@ -1,0 +1,14 @@
+if (typeof status === "undefined" || status === null || status === "") {
+    return;
+}
+var formattedText;
+// const statusNumber = Number(sat)
+switch (status) {
+    case 1:
+        formattedText = "Warning";
+    case 2:
+        formattedText = "Error";
+    case 3:
+        formattedText = "Success";
+}
+return formattedText;
