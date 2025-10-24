@@ -1,0 +1,13 @@
+if (typeof status === "undefined" || status === null || status === "") {
+    return;
+}
+var formattedText;
+switch (status) {
+    case "1":
+        formattedText = "Warning";
+    case "2":
+        formattedText = "Error";
+    case "3":
+        formattedText = "Success";
+}
+return formattedText;

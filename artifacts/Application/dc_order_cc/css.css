@@ -1,0 +1,223 @@
+.LeftBoxes {
+    width: 20%;
+    height: 99%;
+    //margin-top:10px;
+}
+
+
+.MainBoxes {
+    width: 55%;
+    height: 99%;
+    //margin-top:10px;
+}
+
+
+.RightBoxes {
+    width: 20%;
+    height: 99%;
+    //margin-top:10px;
+}
+
+
+.TextStatus {
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+}
+
+.sapUiCalMulti:not(.sapUiCalInt) {
+    width: 100%;
+}
+
+.customCalendarStyle {
+    width: 100% !important;
+}
+
+.customCalendarStyle .sapUiCalItem {
+    height: 60px;
+    position: relative;
+}
+
+.customCalendarStyle .sapUiCalItem[title]::after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    top: 20px;
+    //font-weight: bold;
+}
+
+//////titles
+.Title {
+    font-size: 15px;
+}
+
+.Title2 {
+    font-size: 0.75rem !important;
+}
+
+.TitleLeftDays {
+    color: green;
+    font-size: 20px;
+}
+
+.TitleList {
+    //color: #0070f2;
+    font-size: 20px;
+}
+
+.TitleCurrentTourNumber {
+    color: red;
+    font-size: 20px;
+}
+
+.TitleMain {
+    font-size: 20px;
+}
+
+//////titles
+// @media only screen and (max-width: 1315px) {
+//     .TitleMain {
+//         font-size: 20px;
+//         color: rgb(141 198 63)
+//     }
+
+//     .MainBoxes {
+//         width: 98%;
+//         height: auto;
+//         //margin: 0px;
+//     }
+
+//     //////titles
+//     .Title {
+//         font-size: 15px;
+//     }
+
+//     .TitleLeftDays {
+//         color: green;
+//         font-size: 22px;
+//     }
+
+//     .TitleList {
+//         //color: #0070f2;
+//         font-size: 22px;
+//     }
+
+//     .TitleCurrentTourNumber {
+//         color: red;
+//         font-size: 22px;
+//     }
+
+//     //////titles
+// }
+
+/////sections
+.ListSection1 {
+    border: 1px solid red;
+    border-radius: 40px;
+}
+
+.ListSection {
+    border: 1px solid #0070f2;
+    border-radius: 40px;
+}
+
+.ListSection2 {
+    border: 1px solid green;
+    border-radius: 40px;
+}
+
+/////sections
+
+
+
+
+
+.sapMTitleDC {
+    color: rgb(141 198 63)
+}
+
+
+.sapMTitleDC2 {
+    font-size: 0.85rem !important;
+    color: rgb(141 198 63)
+}
+
+.sapMTitleStyleAuto {
+    font-size: 1.2rem;
+}
+
+.sapMListUl .sapMLIB.sapMGHLI {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgb(141 198 63);
+    // background: #1d232a;
+    border-bottom: .0625rem solid rgb(141 198 63)
+}
+
+.sapMObjLIntro {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "72", "72full", Arial, Helvetica, sans-serif;
+    color: #8396a8;
+    font-size: .75rem;
+}
+
+
+.sapMObjLNumberDiv .sapMObjectNumber .sapMObjectNumberText {
+    font-size: .75rem;
+}
+
+
+.sapMIBar-CTX .sapMTitle {
+    color: rgb(141 198 63);
+
+}
+
+
+span.sapMBtnInner.sapMBtnEmphasized {
+    background-image: none;
+    background-color: rgb(141 198 63);
+    border-color: rgb(141 198 63);
+
+}
+
+
+
+.sapMOHIcon .sapUiIcon {
+    color: rgb(141 198 63);
+}
+
+
+
+.sapMOHTitle h6 .sapMText,
+.sapMOHTitle h5 .sapMText,
+.sapMOHTitle h4 .sapMText,
+.sapMOHTitle h3 .sapMText,
+.sapMOHTitle h2 .sapMText,
+.sapMOHTitle h1 .sapMText {
+
+    color: rgb(141 198 63);
+}
+
+
+.sapMITBContent {
+    border-bottom: .05rem
+}
+
+
+.circularIcon {
+  background-color: rgb(141 198 63);   /* opzionale: sfondo */
+  border-radius: 50%;         /* rende l’icona circolare */
+//   padding: 0.5rem;            /* margine interno */
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  line-height: 1rem;        /* centra verticalmente */
+  display: inline-block;
+  color: #ffffff;                /* colore icona */
+}

@@ -1,0 +1,7 @@
+if (typeof driverId === "undefined" || driverId === null || driverId === "") { return; }  
+let driverObj = modelMasterData.getData().drivers.find(d => d.id=== driverId); 
+let formattedText = "";
+if(driverObj){
+    formattedText = driverObj.name
+}
+return formattedText;

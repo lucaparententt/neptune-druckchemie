@@ -1,0 +1,9 @@
+if (typeof qty === "undefined" || qty === null || qty === "") { return; }  
+if (typeof productId === "undefined" || productId === null || productId === "") { return; }  
+const product = modelProducts.getData().find((p) => p.id === productId);
+let qtyPerItem = Number(product.qtyPerItem);
+
+var formattedText = (Number(qty) * qtyPerItem).toFixed(2); 
+return formattedText +" "+ product.unit;
+
+

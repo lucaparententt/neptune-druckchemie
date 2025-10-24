@@ -1,0 +1,3 @@
+if (typeof editMode === "undefined" || editMode === null || editMode === "") { return; }  
+
+return editMode ? "sap-icon://display" : "sap-icon://edit";;

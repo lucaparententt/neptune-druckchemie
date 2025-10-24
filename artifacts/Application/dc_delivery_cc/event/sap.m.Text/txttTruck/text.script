@@ -1,0 +1,7 @@
+if (typeof truck === "undefined" || truck === null || truck === "") { return; }  
+let truckObj = modelMasterData.getData().trucks.find(t => t.id=== truck); 
+let formattedText = "";
+if(truckObj){
+    formattedText = truckObj.code
+}
+return formattedText;

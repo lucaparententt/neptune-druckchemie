@@ -11,10 +11,37 @@
 	"enableCICD": true,
 	"apps": [
 		{
+			"id": "fb8f440e-3a07-f011-aaa7-6045bdde104c",
+			"application": "dc_deliveries_map",
+			"title": "Neptune Deliveries Application",
+			"description": "",
+			"package": {
+				"id": "4cba168a-4e72-44be-af1c-4abc19fabc07"
+			}
+		},
+		{
+			"id": "e9dd5220-0a63-f011-8f7c-7c1e5288250d",
+			"application": "dc_order_list_cc",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "4cba168a-4e72-44be-af1c-4abc19fabc07"
+			}
+		},
+		{
 			"id": "d25aba6b-22a7-4923-91e2-e80f45698927",
 			"application": "dc_order_mobile_cc",
 			"title": "Floorplan",
 			"description": "Fiori Object Page",
+			"package": {
+				"id": "4cba168a-4e72-44be-af1c-4abc19fabc07"
+			}
+		},
+		{
+			"id": "cc6b6aa8-2562-f011-8f7c-7c1e5288250d",
+			"application": "dc_order",
+			"title": "",
+			"description": "",
 			"package": {
 				"id": "4cba168a-4e72-44be-af1c-4abc19fabc07"
 			}
@@ -29,10 +56,28 @@
 			}
 		},
 		{
+			"id": "96ea483e-6c5d-f011-8f7c-7c1e5288250d",
+			"application": "dc_delivery_cc",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "4cba168a-4e72-44be-af1c-4abc19fabc07"
+			}
+		},
+		{
 			"id": "65123e3e-1f89-4a42-b1dd-f9d1c0fa81f7",
 			"application": "dc_mobile_orderlist_cc",
 			"title": "",
 			"description": "",
+			"package": {
+				"id": "4cba168a-4e72-44be-af1c-4abc19fabc07"
+			}
+		},
+		{
+			"id": "53d6ca61-2262-f011-8f7c-7c1e5288250d",
+			"application": "dc_order_cc",
+			"title": "Floorplan",
+			"description": "Fiori Object Page",
 			"package": {
 				"id": "4cba168a-4e72-44be-af1c-4abc19fabc07"
 			}

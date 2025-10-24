@@ -1,0 +1,210 @@
+{
+	"id": "cc6b6aa8-2562-f011-8f7c-7c1e5288250d",
+	"createdAt": "2025-07-28T12:43:32.000Z",
+	"createdBy": "druckchemie",
+	"objects": [
+		{
+			"fieldNo": "74688cca-8b87-4765-83c1-85f336144f95",
+			"fieldName": "Shell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "37f99f60-fdc3-4d9d-ba6a-2c8a5f92cb62",
+					"fieldName": "App",
+					"fieldParent": "74688cca-8b87-4765-83c1-85f336144f95",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "93b50ab0-ea44-46c8-bce7-1bcab59f3139",
+							"fieldName": "PageOrderList",
+							"fieldParent": "37f99f60-fdc3-4d9d-ba6a-2c8a5f92cb62",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Order List",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "titleAlignment",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "e0c774c1-da7c-4a2e-dacd-36c1e78fe306",
+									"fieldName": "orderList",
+									"fieldParent": "93b50ab0-ea44-46c8-bce7-1bcab59f3139",
+									"fieldType": "dc_order_list_cc",
+									"script": "",
+									"customComponent": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/dc_order_list_cc/orderList/press.js",
+											"fieldId": "d0c117eb-5cd7-465d-bf68-f5d4a3a8e24f",
+											"language": "javascript",
+											"translation": []
+										},
+										{
+											"attribute": "visible",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"fieldId": "f823ddf2-9380-448b-ec3e-902044d508a9",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "c22647f4-64a7-4267-e78f-22e6064a1a8f",
+							"fieldName": "PageOrderDetails",
+							"fieldParent": "37f99f60-fdc3-4d9d-ba6a-2c8a5f92cb62",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Order Details",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showNavButton",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "navButtonPress",
+									"grouping": "Events",
+									"value": "App.back()",
+									"script": "App.back()",
+									"translation": []
+								},
+								{
+									"attribute": "titleAlignment",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "ba70dd26-fa4c-4b47-d5d7-d7b11aab399e",
+									"fieldName": "dc_order_cc",
+									"fieldParent": "c22647f4-64a7-4267-e78f-22e6064a1a8f",
+									"fieldType": "dc_order_cc",
+									"script": "",
+									"customComponent": true,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "20b760f2-81c9-41d3-81f8-3c64884ca24e",
+					"fieldName": "onInit",
+					"fieldParent": 99999,
+					"fieldType": "neptune.event.oninit",
+					"script": "file://script/neptune.event.oninit/onInit.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "25.10.24.1559",
+	"application": "dc_order",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "4cba168a-4e72-44be-af1c-4abc19fabc07"
+}

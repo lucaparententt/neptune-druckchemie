@@ -1,0 +1,12 @@
+if (typeof unit === "undefined" || unit === null || unit === "") { return; }  
+switch (unit) {
+    case "KG":
+      return "sap-icon://product"; // oppure una tua icona peso
+    case "LT":
+      return "sap-icon://paint-bucket"; // simbolo beuta/litri
+    case "PZ":
+      return "sap-icon://shipping-status"; // singolo pezzo
+    default:
+      return "sap-icon://question-mark"; // fallback
+  }
+// return formattedText;

@@ -1,0 +1,6 @@
+if (typeof status === "undefined" || status === null || status === "") { return false; }  
+if(Number(status)<2){
+    return true
+}
+
+return false;

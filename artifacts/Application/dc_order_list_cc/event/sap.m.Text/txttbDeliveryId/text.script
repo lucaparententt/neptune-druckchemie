@@ -1,0 +1,3 @@
+if (typeof deliveryID === "undefined" || deliveryID === null || deliveryID === "") { return "N/A"; }  
+var formattedText = modelDeliveries.getData().find(del => del.id === deliveryID).deliveryCode; 
+return formattedText;

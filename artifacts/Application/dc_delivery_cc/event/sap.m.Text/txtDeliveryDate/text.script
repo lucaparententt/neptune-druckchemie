@@ -1,0 +1,3 @@
+if (typeof deliveryDate === "undefined" || deliveryDate === null || deliveryDate === "") { return; }  
+var formattedText = deliveryDate.split("T")[0]
+return formattedText;
